@@ -185,10 +185,7 @@ class Enemy_spaceship extends Phaser.GameObjects.Sprite {
     avoidOverlapping(enemy_spaceship) {
         switch(enemy_spaceship.texture.key) {
             case "enemy_spaceship":
-                let reset = function(ene) {
-
-                };
-                break;
+                this.resetShip(enemy_spaceship);
             case "enemy_spaceship2":
                 this.resetShip(enemy_spaceship);
                 break;
