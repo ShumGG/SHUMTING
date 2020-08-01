@@ -51,6 +51,12 @@ This is my second personal project, made this little game in JS using PHASER-3, 
  
  ### Pause scene:
  
-    imagen
+   imagen
     
-    The option to the player to resume or exit the game
+   The option to the player to resume or exit the game
+  
+### Game over scene:
+
+   imagen
+   
+   Shows to the player the quantity of each type of enemy defeated
