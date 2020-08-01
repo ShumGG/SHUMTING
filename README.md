@@ -24,3 +24,33 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 * Enemy 3:
 
   This enemy will follow the player by ten seconds and if it collide with him, it will explode.
+  
+##
+
+### Power ups:
+
+* Life:
+
+  imagen 
+  
+  Increase the life of the player by ten.
+  
+* Shield:
+
+   imagen 
+   
+   Create a shield around the player.
+   
+* Double point:
+
+   imagen 
+   
+   Each type of enemy point by two.
+   
+ ##
+ 
+ ### Pause scene:
+ 
+    imagen
+    
+    The option to the player to resume or exit the game
