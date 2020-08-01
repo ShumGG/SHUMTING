@@ -46,14 +46,14 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 * Shield:
 
    
-   <p align="center"> <img src="gitimg/power1.png"> </p>
+   <p align="center"> <img src="gitimg/power2.png"> </p>
   
    Create a shield around the player.
    
 * Double point:
    
    
-  <p align="center"> <img src="gitimg/power1.png"> </p>
+  <p align="center"> <img src="gitimg/power3.png"> </p>
   
    Each type of enemy point by two.
    
