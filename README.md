@@ -9,7 +9,7 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 
 ## FEATURES
 
-Tree types of enemies:
+### Tree types of enemies:
 
 * Enemy 1:
 
