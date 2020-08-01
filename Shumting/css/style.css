@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "PressStart2P-Regular";
+    src: url("../font/PressStart2P-Regular.ttf");
+    font-weight:normal;
+    font-style: normal;
+}
+
+span{ /*using this to load the font in the menu scene*/
+    font-family: "PressStart2P-Regular";
+    color: white;
+    position: absolute;
+    top:130px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin:auto;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("../img/background.png");
+}
