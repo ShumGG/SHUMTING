@@ -39,20 +39,22 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 
 * Life:
 
-  <p align="center"> <img src="gitimg/.png"> </p>
+  <p align="center"> <img src="gitimg/power1.png"> </p>
   
   Increase the life of the player by ten.
   
 * Shield:
 
-   imagen 
    
+   <p align="center"> <img src="gitimg/power1.png"> </p>
+  
    Create a shield around the player.
    
 * Double point:
-
-   imagen 
    
+   
+  <p align="center"> <img src="gitimg/power1.png"> </p>
+  
    Each type of enemy point by two.
    
  ##
