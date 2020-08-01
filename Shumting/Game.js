@@ -7,7 +7,7 @@ window.onload = function() {
         scene: [Menu_scene,Game_scene,Pause_scene,Gameover_scene],
         physics: {
             default: 'arcade',
-            arcade: {debug: true,}
+            arcade: {debug: false,}
         }
     }
     var game = new Phaser.Game(config);
