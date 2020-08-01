@@ -45,14 +45,14 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 
   <p align="center"> <img src="gitimg/power1.png"> </p>
   
-  Increase the life of the player by ten.
+  Increases the life of the player by ten.
   
 * Shield:
 
    
    <p align="center"> <img src="gitimg/power2.png"> </p>
   
-   Create a shield around the player.
+   Creates a shield around the player.
    
 * Double point:
    
