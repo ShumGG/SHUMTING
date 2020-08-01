@@ -39,7 +39,7 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 
 * Life:
 
-  imagen 
+  <p align="center"> <img src="gitimg/.png"> </p>
   
   Increase the life of the player by ten.
   
