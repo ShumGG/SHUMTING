@@ -1,22 +1,22 @@
-const SPEED_SHOT = 4;
-
 class Shot extends Phaser.GameObjects.Sprite {
     constructor(scene) {
         super(scene,0,0,"shot");
         this.animation();
         scene.shot_group = scene.physics.add.group();
+        this.SPEED_SHOT = 4;
+
     }
     moveShot() { //moves player shot
         this.scene.shot_group.children.each(shot =>{
             if (shot.angle == "") {
-                shot.y -= SPEED_SHOT;
+                shot.y -= this.SPEED_SHOT;
             }else {
                 if (shot.angle == -135 || shot.angle == 45) {
-                    shot.x += SPEED_SHOT * Math.cos(shot.rotation);
-                    shot.y -= SPEED_SHOT * Math.sin(shot.rotation);
+                    shot.x += this.SPEED_SHOT * Math.cos(shot.rotation);
+                    shot.y -= this.SPEED_SHOT * Math.sin(shot.rotation);
                 }else {
-                    shot.x -= SPEED_SHOT * Math.cos(shot.rotation);
-                    shot.y += SPEED_SHOT * Math.sin(shot.rotation);
+                    shot.x -= this.SPEED_SHOT * Math.cos(shot.rotation);
+                    shot.y += this.SPEED_SHOT * Math.sin(shot.rotation);
                 }
             }
             if (shot.y <= 0 || shot.y >= 500) {
@@ -102,6 +102,9 @@ class Shot extends Phaser.GameObjects.Sprite {
     }
     destroyShot(shot) {
         shot.destroy();
+    }
+    sprint_shot(velocity) {
+        this.SPEED_SHOT = velocity;
     }
     update() {
         this.moveShot();

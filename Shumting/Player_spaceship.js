@@ -51,9 +51,11 @@ class Player_spaceship extends Phaser.GameObjects.Sprite {
         if (this.scene.keys.SHIFT.isDown) {
             this.SPEED = 3;
             this.BACKGROUND_SPEED = 2;
+            this.scene.shot_object.sprint_shot(5)
         }else {
             this.SPEED = 2;
             this.BACKGROUND_SPEED = 1;
+            this.scene.shot_object.sprint_shot(4);
         }
     }
     moveangle() {
