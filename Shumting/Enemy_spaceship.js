@@ -194,13 +194,13 @@ class Enemy_spaceship extends Phaser.GameObjects.Sprite {
     getenemyDamage(enemy_spaceship) {
         switch(enemy_spaceship.key) {
             case "enemy_spaceship":
-                return 10;
+                return 5;
             break;
             case "enemy_spaceship2":
                 return 10;
             break;
             case "explosive_enemy":
-                return 20;
+                return 15;
             break;
         }
     }

@@ -175,7 +175,7 @@ class Player_spaceship extends Phaser.GameObjects.Sprite {
         }
     }
     addLife() {
-        if (this.life < 600) {
+        if (this.life < 100) {
             this.life += 10;
             this.scene.player_spaceship.play("player_spaceship_life");
             this.scene.lifeText.setText(`Life: ${this.life}`);
