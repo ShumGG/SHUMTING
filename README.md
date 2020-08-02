@@ -13,9 +13,9 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 
 * Enemy 1:
 
- imagen
- 
  This enemy will shoot a mini bullet to the current position of the player.
+ 
+ ![](gitimg/enemy1.png)
 ##
 * Enemy 2:
 
