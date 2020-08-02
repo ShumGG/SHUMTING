@@ -1,11 +1,15 @@
 # SHUMTING
-A small JS game, made with the framework PHASER-3
+A small JS game, made with the framework PHASER-3.
 
 ![](gitimg/Menu.png)
 
 # 
 
+![](gitimg/Game.png)
+
 This is my second personal project, made this little game in JS using PHASER-3, may be simple, but I hope you like it :eyes:
+
+#
 
 ## FEATURES
 
@@ -39,32 +43,34 @@ This is my second personal project, made this little game in JS using PHASER-3, 
 
 * Life:
 
-  imagen 
+  <p align="center"> <img src="gitimg/power1.png"> </p>
   
-  Increase the life of the player by ten.
+  Increases the life of the player by ten.
   
 * Shield:
 
-   imagen 
    
-   Create a shield around the player.
+   <p align="center"> <img src="gitimg/power2.png"> </p>
+  
+   Creates a shield around the player.
    
 * Double point:
-
-   imagen 
    
+   
+  <p align="center"> <img src="gitimg/power3.png"> </p>
+  
    Each type of enemy point by two.
    
  ##
  
  ### Pause scene:
   
-   The option to the player to resume or exit the game
+   The option to the player to resume or exit the game.
    
    ![](gitimg/Pause.png)
 
 ### Game over scene:
 
-   Shows to the player the quantity of each type of enemy defeated
+   Shows to the player the quantity of each type of enemy defeated.
    
    ![](gitimg/Gameover.png)
